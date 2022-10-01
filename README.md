@@ -14,6 +14,26 @@ If you want to break into cutting-edge AI, this course will help you do so. Deep
 - Implement and understand the purpose of a cost function.
 - Implement and understand how gradient descent is used to train a machine learning model.
 
+#### Optional Lab
+
+> #### [1. Python and Jupyter Notebooks](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab01_Python_Jupyter_Soln.ipynb)
+>> In this lab, you will explore some of the tools that are used in this course. Python and Jupyter notebooks.
+
+> #### [2. Model representation](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab03_Model_Representation_Soln.ipynb)
+>> In this ungraded lab, you can see how a linear regression model is defined in code, and you can see plots that show how well a model fits some data given choices of w and b.  You can also try different values of w and b to see if it improves the fit to the data.
+
+> #### [3. Cost function](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab04_Cost_function_Soln.ipynb)
+>> This optional lab will show you how the cost function is implemented in code. And given a small training set and different choices for the parameters you’ll be able to see how the cost varies depending on how well the model fits the data. 
+
+>> In the optional lab, you'll also get to play with an interactive contour plot.  You can use your mouse cursor to click anywhere on the contour plot, and you see the straight line defined by the values you chose, for parameters w and b.
+
+>> Finally the optional lab also has a 3d surface plot that you can manually rotate and spin around, using your mouse cursor, to take a better look at what the cost function looks like.
+
+> #### [4. Gradient descent](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab05_Gradient_Descent_Soln.ipynb)
+>> In the optional lab, you’ll see a review of the gradient descent algorithm, as well as how to implement it in code.
+
+>> You will also see a plot that shows how the cost decreases as you continue training more iterations.  And you’ll also see a contour plot, seeing how the cost gets closer to the global minimum as gradient descent finds better and better values for the parameters w and b.
+
 ### [Week 2](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course1/Week2)
 - Build and train a regression model that takes multiple features as input (multiple linear regression).
 - Implement and understand the cost function and gradient descent for multiple linear regression.
