@@ -15,29 +15,37 @@ If you want to break into cutting-edge AI, this course will help you do so. Deep
 - Implement and understand how gradient descent is used to train a machine learning model.
 
 #### Optional Lab
-
 > #### [1. Python and Jupyter Notebooks](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab01_Python_Jupyter_Soln.ipynb)
->> In this lab, you will explore some of the tools that are used in this course. Python and Jupyter notebooks.
-
+>>- In this lab, you will explore some of the tools that are used in this course. Python and Jupyter notebooks.
 > #### [2. Model representation](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab03_Model_Representation_Soln.ipynb)
->> In this ungraded lab, you can see how a linear regression model is defined in code, and you can see plots that show how well a model fits some data given choices of w and b.  You can also try different values of w and b to see if it improves the fit to the data.
-
+>>- In this ungraded lab, you can see how a linear regression model is defined in code, and you can see plots that show how well a model fits some data given choices of w and b.  You can also try different values of w and b to see if it improves the fit to the data.
 > #### [3. Cost function](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab04_Cost_function_Soln.ipynb)
->> This optional lab will show you how the cost function is implemented in code. And given a small training set and different choices for the parameters you’ll be able to see how the cost varies depending on how well the model fits the data. 
-
->> In the optional lab, you'll also get to play with an interactive contour plot.  You can use your mouse cursor to click anywhere on the contour plot, and you see the straight line defined by the values you chose, for parameters w and b.
-
->> Finally the optional lab also has a 3d surface plot that you can manually rotate and spin around, using your mouse cursor, to take a better look at what the cost function looks like.
-
+>>- This optional lab will show you how the cost function is implemented in code. And given a small training set and different choices for the parameters you’ll be able to see how the cost varies depending on how well the model fits the data. 
+>>- In the optional lab, you'll also get to play with an interactive contour plot.  You can use your mouse cursor to click anywhere on the contour plot, and you see the straight line defined by the values you chose, for parameters w and b.
+>>- Finally the optional lab also has a 3d surface plot that you can manually rotate and spin around, using your mouse cursor, to take a better look at what the cost function looks like.
 > #### [4. Gradient descent](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab05_Gradient_Descent_Soln.ipynb)
->> In the optional lab, you’ll see a review of the gradient descent algorithm, as well as how to implement it in code.
-
->> You will also see a plot that shows how the cost decreases as you continue training more iterations.  And you’ll also see a contour plot, seeing how the cost gets closer to the global minimum as gradient descent finds better and better values for the parameters w and b.
+>>- In the optional lab, you’ll see a review of the gradient descent algorithm, as well as how to implement it in code.
+>>- You will also see a plot that shows how the cost decreases as you continue training more iterations.  And you’ll also see a contour plot, seeing how the cost gets closer to the global minimum as gradient descent finds better and better values for the parameters w and b.
 
 ### [Week 2](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course1/Week2)
 - Build and train a regression model that takes multiple features as input (multiple linear regression).
 - Implement and understand the cost function and gradient descent for multiple linear regression.
 - Implement and understand methods for improving machine learning models by choosing the learning rate, plotting the learning curve, performing feature engineering, and - applying polynomial regression.
+
+#### Optional Lab
+> #### [1. Python, NumPy and vectorization](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week2/Optional%20Lab/C1_W2_Lab01_Python_Numpy_Vectorization_Soln.ipynb)
+>>- This optional lab will show you how to use NumPy to implement the math operations of creating vectors and matrices, and performing dot products and matrix multiplications in code.  These NumPy operations use vectorization behind the scenes to make the code run faster!
+>>- This optional lab introduces a fair amount of new numpy syntax, so don't worry about understanding all of it right away.  But you can save this notebook and use it as a reference to look at when you’re working with data stored in numpy arrays.
+> #### [2. Multiple linear regression](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week2/Optional%20Lab/C1_W2_Lab02_Multiple_Variable_Soln.ipynb)
+>>- In this optional lab, you’ll see how to define a multiple regression model, in code, and also how to calculate the prediction, f of x.  You’ll also see how to calculate the cost, and implement gradient descent for a multiple linear regression model.
+>>- This will be using Python’s numpy library, so if any of the code looks very new, please take a look at the previous optional lab that introduces Numpy and Vectorization, for a refresher of Numpy functions and how to implement those in code.
+> #### [3. Feature scaling and learning rate](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week2/Optional%20Lab/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipynb)
+>>- In this optional lab you can also take a look at how feature scaling is done in code and also see how different choices of the learning rate alpha can lead to better or worse training of your model.  This  will help you to gain a deeper intuition about feature scaling as well as the learning rate alpha.
+> #### [4. Feature engineering and Polynomial regression](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week2/Optional%20Lab/C1_W2_Lab04_FeatEng_PolyReg_Soln.ipynb)
+>>- In this optional lab, you'll see some code that implements polynomial regression including features like x, x squared, and x cubed.
+> #### [5. Linear regression with scikit-learn](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week2/Optional%20Lab/C1_W2_Lab05_Sklearn_GD_Soln.ipynb)
+>>- This optional lab shows how to use a popular open source toolkit that implements linear regression. Scikit learn is a very widely used open source machine learning library that is used by many practitioners in many of the top AI, internet, machine learning companies in the world.
+>>- So if either now or in the future you are using machine learning in in your job there’s a very good chance you use tools like Scikit learn to train your models. 
 
 ### [Week 3](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course1/Week3)
 - Implement and understand the logistic regression model for classification.
