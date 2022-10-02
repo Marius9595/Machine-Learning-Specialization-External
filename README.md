@@ -144,6 +144,10 @@ In the second course of the Machine Learning Specialization, you will: Build and
 - Build decision trees and tree ensembles, such as random forest and XGBoost (boosted trees) to make predictions.
 - Learn when to use neural network or tree ensemble models for your task, as these are the two most commonly used supervised learning models in practice today.
 
+#### Practice Lab
+> [Decision Trees](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week4/C2_W4_Decision_Tree_with_Markdown.ipynb)
+>>- In this exercise, you will implement a decision tree from scratch and apply it to the task of classifying whether a mushroom is edible or poisonous.
+
 ## [Course 3: Unsupervised Learning, Recommenders, Reinforcement Learning](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning?specialization=machine-learning-introduction)
 In the third course of the Machine Learning Specialization, you will: Use unsupervised learning techniques for unsupervised learning: including clustering and anomaly detection. Build recommender systems with a collaborative filtering approach and a content-based deep…
 
