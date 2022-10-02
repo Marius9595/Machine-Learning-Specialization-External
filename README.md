@@ -84,7 +84,7 @@ If you want to break into cutting-edge AI, this course will help you do so. Deep
 >>- Please take a look at the code for implementing regularized logistic regression in particular, because you will implement this in the practice lab.
 
 #### Practice Lab
-> [Logistic regression](https://www.coursera.org/learn/machine-learning/programming/vPfeK/week-3-practice-lab-logistic-regression)
+> [Logistic regression](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Practice%20Lab/C1_W3_Logistic_Regression.ipynb)
 >>- You'll get to practice implementing logistic regression for binary classification.
 
 ## [Course 2: Advanced Learning Algorithms](https://www.coursera.org/learn/advanced-learning-algorithms?specialization=machine-learning-introduction)
