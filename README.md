@@ -171,5 +171,11 @@ In the third course of the Machine Learning Specialization, you will: Use unsupe
 - Build a recommender system using collaborative filtering.
 - Build a recommender system using a content-based deep learning method.
 
+#### Practice Lab
+> #### [1. Collaborative Filtering Recommender Systems](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course3/Week2/Practice%20Lab1/C3_W2_Collaborative_RecSys_Assignment.ipynb)
+>>- In this lab, you will build a collaborative filtering recommender system for recommending movies using Tensorflow.
+> #### [2. Deep Learning for Content-Based Filtering](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course3/Week2/Practice%20Lab2/C3_W2_RecSysNN_Assignment.ipynb)
+>>- In this lab, you will implement a content-based collaborative filtering recommender system for movies. This lab will use neural networks to generate the user and movie vectors.
+
 ### [Week 3](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course3/Week3)
 - Build a deep reinforcement learning model (Deep Q Network).
