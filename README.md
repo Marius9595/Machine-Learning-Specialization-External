@@ -179,3 +179,11 @@ In the third course of the Machine Learning Specialization, you will: Use unsupe
 
 ### [Week 3](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course3/Week3)
 - Build a deep reinforcement learning model (Deep Q Network).
+
+#### Optional Lab
+> #### [State-action value function](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course3/Week3/Optional%20Lab/State-action%20value%20function%20example.ipynb)
+>>- Here is the lab the state-action value examples.
+
+#### Practice Lab
+> #### [Reinforcement Learning](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course3/Week3/Practice%20Lab/C3_W3_A1_Assignment.ipynb)
+>>- In the final graded practice lab of this course (and this specialization), you'll implement code for a virtual lunar lander.  This will give you a chance to practice some of the concepts in deep reinforcement learning covered in lecture.  At the end of the lab, you'll see a video of your lunar lander and can check whether it has learned to successfully land on the moon's surface!
