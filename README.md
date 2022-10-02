@@ -18,7 +18,7 @@ If you want to break into cutting-edge AI, this course will help you do so. Deep
 > #### [1. Python and Jupyter Notebooks](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab01_Python_Jupyter_Soln.ipynb)
 >>- In this lab, you will explore some of the tools that are used in this course. Python and Jupyter notebooks.
 > #### [2. Model representation](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab03_Model_Representation_Soln.ipynb)
->>- In this ungraded lab, you can see how a linear regression model is defined in code, and you can see plots that show how well a model fits some data given choices of w and b.  You can also try different values of w and b to see if it improves the fit to the data.
+>>- In this lab, you can see how a linear regression model is defined in code, and you can see plots that show how well a model fits some data given choices of w and b.  You can also try different values of w and b to see if it improves the fit to the data.
 > #### [3. Cost function](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week1/C1_W1_Lab04_Cost_function_Soln.ipynb)
 >>- This optional lab will show you how the cost function is implemented in code. And given a small training set and different choices for the parameters you’ll be able to see how the cost varies depending on how well the model fits the data. 
 >>- In the optional lab, you'll also get to play with an interactive contour plot.  You can use your mouse cursor to click anywhere on the contour plot, and you see the straight line defined by the values you chose, for parameters w and b.
@@ -57,6 +57,35 @@ If you want to break into cutting-edge AI, this course will help you do so. Deep
 - Implement and understand the cost function and gradient descent for logistic regression.
 - Understand the problem of “overfitting” and improve model performance using regularization.
 - Implement regularization to improve both regression and classification models.
+
+#### Optional Lab
+> #### [1. Classification](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab01_Classification_Soln.ipynb)
+>>- In this optional lab, you’ll get to take a look at what happens when you try to use linear regression for classification on categorical data.  You can see an interactive plot that attempts to classify between two categories.  And you may notice that this doesn’t work very well, which is okay, because that motivates the need for a different model to do classification tasks.
+> #### [2. Sigmoid function and logistic regression](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab02_Sigmoid_function_Soln.ipynb)
+>>- In this optional lab, you’ll get to see how the sigmoid function is implemented in code.  You can see a plot that uses the sigmoid to improve the classification task that you saw in the previous optional lab.
+> #### [3. Decision boundary](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab03_Decision_Boundary_Soln.ipynb)
+>>- In this optional lab, you’ll get to see the code implementation of the decision boundary.  In this example, there will be two features, so you can see the decision boundary as a line.
+> #### [4. Logistic loss](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab04_LogisticLoss_Soln.ipynb)
+>>- In this optional lab, you’ll get to take a look at how the squared error cost doesn’t work very well for classification, because you’ll see a surface plot of a very wiggly cost surface with many local minima.
+>>- Then, you’ll get to take a look at the new logistic loss function, and see that this produces a nice and smooth surface plot that does not have several local minima.
+> #### [5. Cost function for logistic regression](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab05_Cost_Function_Soln.ipynb)
+>>- This optional lab will show you how the logistic cost function is implemented in code.  You will get to implement this later in the practice lab.
+>>- This optional lab also shows you how two different choices of the parameters will lead to different cost calculations.  So you can see in a plot that the better fitting decision boundary has a lower cost relative to another choice for a decision boundary.
+> #### [6. Gradient descent for logistic regression](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab06_Gradient_Descent_Soln.ipynb)
+>>- In this optional lab, you’ll take a look how the gradient for logistic cost is calculated in code.  This will be useful to look at because you will implement this in the practice lab.
+>>- After you run gradient descent in the lab, there will be a nice set of animated plots that show gradient descent in action. You’ll see the sigmoid function, the contour plot of the cost, the 3D surface plot of the cost, and the learning curve all evolve as gradient descent runs.
+> #### [7. Logistic regression with scikit-learn](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab07_Scikit_Learn_Soln.ipynb)
+>>- This optional lab will show you how to use the popular sci-kit learn library to train a logistic regression model for classification.
+> #### [8. Overfitting](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab08_Overfitting_Soln.ipynb)
+>>- In this optional lab, you’ll take a look at some examples of overfitting that you can adjust by clicking on the options in the plot.  In the lab you’ll be able to add your own data points by clicking on the plot, and see how that changes the fitted curve.
+>>- You can try examples for both regression and classification.  You can also change the degree of the polynomial to see how the curve either overfits or underfits the data.
+> #### [9. Regularization](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week3/Optional%20Lab/C1_W3_Lab09_Regularization_Soln.ipynb)
+>>- In this final optional lab of week 3, you’ll revisit overfitting, and in this interactive plot, you can now choose to regularize your models, both regression and classification, by enabling regularization during gradient descent by selecting a value for lambda.
+>>- Please take a look at the code for implementing regularized logistic regression in particular, because you will implement this in the practice lab.
+
+#### Practice Lab
+> [Logistic regression](https://www.coursera.org/learn/machine-learning/programming/vPfeK/week-3-practice-lab-logistic-regression)
+>>- You'll get to practice implementing logistic regression for binary classification.
 
 ## [Course 2: Advanced Learning Algorithms](https://www.coursera.org/learn/advanced-learning-algorithms?specialization=machine-learning-introduction)
 In the second course of the Machine Learning Specialization, you will: Build and train a neural network with TensorFlow to perform multi-class classification. Apply best practices for machine learning development so that your models generalize…
