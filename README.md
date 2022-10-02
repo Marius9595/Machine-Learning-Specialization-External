@@ -117,6 +117,17 @@ In the second course of the Machine Learning Specialization, you will: Build and
 - Learn where to use different activation functions (ReLu, linear, sigmoid, softmax) in a neural network, depending on the task you want your model to perform.
 - Use the advanced “Adam optimizer” to train your model more efficiently.
 
+#### Optional Lab
+> #### [1. ReLU activation](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week2/Optional%20Lab/C2_W2_Relu.ipynb)
+> #### [2. Softmax](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week2/Optional%20Lab/C2_W2_SoftMax.ipynb)
+>>- Explore Softmax.
+> #### [3. Multiclass](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week2/Optional%20Lab/C2_W2_Multiclass_TF.ipynb)
+>>- Implement a small neural network to perform multiclass classification.
+
+#### Practice Lab
+> [Neural Networks for Multiclass classification](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week2/Practice%20Lab/C2_W2_Assignment.ipynb)
+>>- In this exercise, you will extend last weeks assigment to recognize digits 0-9. You will explore the popular ReLu activation as well as the use of the Softmax activation in multiclass classification.  You will then build a neural network capable of multiclass classification using the ReLu and Softmax in Tensorflow. 
+
 ### [Week 3](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course2/Week3)
 - Discover the value of separating your data set into training, cross-validation, and test sets.
 - Choose from various versions of your model using a cross-validation dataset, and evaluate its ability to generalize to real-world data using a test dataset.
