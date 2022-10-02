@@ -136,6 +136,10 @@ In the second course of the Machine Learning Specialization, you will: Build and
 - Learn to apply the “iterative loop” of machine learning development to train, evaluate, and tune your model.
 - Apply “data-centric AI” to not only tune your model but tune your data (using data synthesis or data augmentation) to improve your model’s performance.
 
+#### Practice Lab
+> [Advice for Applying Machine Learning](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week3/C2_W3_Assignment.ipynb)
+>>- In this lab, you will explore techniques to evaluate and improve your machine learning models. You will discover how splitting your data set can provide insight into how your model will perform in a production environment and guidance on how to improve your model.
+
 ### [Week 4](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course2/Week4)
 - Build decision trees and tree ensembles, such as random forest and XGBoost (boosted trees) to make predictions.
 - Learn when to use neural network or tree ensemble models for your task, as these are the two most commonly used supervised learning models in practice today.
