@@ -47,6 +47,10 @@ If you want to break into cutting-edge AI, this course will help you do so. Deep
 >>- This optional lab shows how to use a popular open source toolkit that implements linear regression. Scikit learn is a very widely used open source machine learning library that is used by many practitioners in many of the top AI, internet, machine learning companies in the world.
 >>- So if either now or in the future you are using machine learning in in your job there’s a very good chance you use tools like Scikit learn to train your models. 
 
+#### Practice Lab
+> #### [Linear regression](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course1/Week2/Practice%20Lab/C1_W2_Linear_Regression.ipynb)
+>>- In this notebook you will implement the regression model using gradient descent .This notebook will give you a brief introduction to Python. Even if you've used Python before, these exercises will help familiarize you with some essential functions.  
+
 ### [Week 3](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course1/Week3)
 - Implement and understand the logistic regression model for classification.
 - Learn why logistic regression is better suited for classification tasks than the linear regression model is.
