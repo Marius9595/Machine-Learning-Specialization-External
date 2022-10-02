@@ -100,6 +100,18 @@ In the second course of the Machine Learning Specialization, you will: Build and
 - Gain a deeper understanding by implementing a neural network in Python from scratch.
 - Optionally learn how neural network computations are “vectorized” to use parallel processing for faster training and prediction.
 
+#### Optional Lab
+> #### [1. Neurons and Layers](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week1/Optional%20Lab/C2_W1_Lab01_Neurons_and_Layers.ipynb)
+>>- Examples of Neurons and Layers.
+> #### [2. Coffee Roasting in Tensorflow](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week1/Optional%20Lab/C2_W1_Lab02_CoffeeRoasting_TF.ipynb)
+>>- Implementing a neural network in tensorflow.
+> #### [3. CoffeeRoastingNumPy](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week1/Optional%20Lab/C2_W1_Lab03_CoffeeRoasting_Numpy.ipynb)
+>>- This lab demonstrates a neural network forwarding path in NumPy.
+
+#### Practice Lab
+> [Neural Networks for Binary Classification](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course2/Week1/Practice%20Lab/C2_W1_Assignment.ipynb)
+>>- In this exercise, you will use a neural network to recognize the hand-written digits. You will first learn to build a neural network in a popular machine learning framework - Tensorflow.  You will use your model to do image recognition on a portion of the famous MNIST data set. You will then learn what is 'under the hood' of these frameworks by implementing the forward path of the same network in NumPy in your own mini-framework.
+
 ### [Week 2](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course2/Week2)
 - Build a neural network to perform multi-class classification of handwritten digits in TensorFlow, using categorical cross-entropy loss functions and the softmax activation.
 - Learn where to use different activation functions (ReLu, linear, sigmoid, softmax) in a neural network, depending on the task you want your model to perform.
