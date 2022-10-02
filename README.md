@@ -161,6 +161,12 @@ In the third course of the Machine Learning Specialization, you will: Use unsupe
 - Implement anomaly detection.
 - Learn how to choose between supervised learning or anomaly detection to solve certain tasks.
 
+#### Practice Lab
+> #### [1. k-means](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course3/Week1/Practice%20Lab1/C3_W1_KMeans_Assignment.ipynb)
+>>- In this practice lab, you'll implement the k-means clustering algorithm and use it for image compression!
+> #### [2. Anomaly Detection](https://github.com/kawamura-R/Machine-Learning-Specialization/blob/main/Course3/Week1/Practice%20Lab2/C3_W1_Anomaly_Detection.ipynb)
+>>- In this practice lab, you will implement the anomaly detection algorithm and apply it to monitor computer servers to identify potentially failing (anomalous) servers.
+
 ### [Week 2](https://github.com/kawamura-R/Machine-Learning-Specialization/tree/main/Course3/Week2)
 - Build a recommender system using collaborative filtering.
 - Build a recommender system using a content-based deep learning method.
